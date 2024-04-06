@@ -63,6 +63,66 @@ const products = [
     price: "26.99",
     brand: "AL FAKHER",
   },
+  {
+    name: "crown grape mint",
+    price: "26.99",
+    brand: "AL FAKHER",
+  },
+  {
+    name: "crown berry mint",
+    price: "26.99",
+    brand: "AL FAKHER",
+  },
+  {
+    name: "Crown white flash",
+    price: "26.99",
+    brand: "AL FAKHER",
+  },
+  {
+    name: "Breeze Smoke Pro - Straw Kiwi",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "60ml juice",
+    price: "29.99",
+    brand: "",
+  },
+  {
+    name: "30 ml juice",
+    price: "24.99",
+    brand: "",
+  },
+  {
+    name: "ARCHER 12000 spearmint",
+    price: "25.99",
+    brand: "ARCHER",
+  },
+  {
+    name: "ARCHER 12000 Strawberry Kiwi",
+    price: "25.99",
+    brand: "ARCHER",
+  },
+  {
+    name: "ARCHER 12000 watermelon kiwi berry",
+    price: "25.99",
+    brand: "ARCHER",
+  },
+  {
+    name: "ARCHER 12000 wigly",
+    price: "25.99",
+    brand: "ARCHER",
+  },
+  {
+    name: "ARCHER 12000 blue razz",
+    price: "25.99",
+    brand: "ARCHER",
+  },
+  {
+    name: "ARCHER 12000 peach mango watermelon",
+    price: "25.99",
+    brand: "ARCHER",
+  },
 ];
 
 function App() {
