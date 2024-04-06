@@ -13,6 +13,11 @@ const products = [
     price: "26.99",
     brand: "AL FAKHER",
   },
+  {
+    name: "crown mango ice",
+    price: "26.99",
+    brand: "AL FAKHER",
+  },
 ];
 
 function App() {
