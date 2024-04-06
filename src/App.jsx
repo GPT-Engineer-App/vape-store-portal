@@ -243,6 +243,246 @@ const products = [
     price: "21.99",
     brand: "BREEZE PRO",
   },
+  {
+    name: "Breeze Smoke Pro - Blue Raspberry",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Mint",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Pina",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Raspberry Lemon",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Rush",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Strawberry Peach Mint",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "breeze prime peach berry",
+    price: "26.99",
+    brand: "BREEZE PRIME",
+  },
+  {
+    name: "breeze prime mint",
+    price: "26.99",
+    brand: "BREEZE PRIME",
+  },
+  {
+    name: "breeze prime strawberry mint",
+    price: "26.99",
+    brand: "BREEZE PRIME",
+  },
+  {
+    name: "breeze prime cherry lemon",
+    price: "26.99",
+    brand: "BREEZE PRIME",
+  },
+  {
+    name: "breeze prime honeydew pineapple",
+    price: "26.99",
+    brand: "BREEZE PRIME",
+  },
+  {
+    name: "breeze prime strawberry apple",
+    price: "26.99",
+    brand: "BREEZE PRIME",
+  },
+  {
+    name: "breeze prime banana coconut",
+    price: "26.99",
+    brand: "BREEZE PRIME",
+  },
+  {
+    name: "breeze prime juicy peach ice",
+    price: "26.99",
+    brand: "BREEZE PRIME",
+  },
+  {
+    name: "breeze prime grape",
+    price: "26.99",
+    brand: "BREEZE PRIME",
+  },
+  {
+    name: "breeze prime double apple",
+    price: "26.99",
+    brand: "BREEZE PRIME",
+  },
+  {
+    name: "breeze elite kiwi dragon berry",
+    price: "24.99",
+    brand: "BREEZE ELITE",
+  },
+  {
+    name: "breeze elite apple cranberry",
+    price: "24.99",
+    brand: "BREEZE ELITE",
+  },
+  {
+    name: "breeze elite black cherry",
+    price: "24.99",
+    brand: "BREEZE ELITE",
+  },
+  {
+    name: "Breeze elite cherry lemon",
+    price: "24.99",
+    brand: "BREEZE ELITE",
+  },
+  {
+    name: "breeze elite raspberry watermelon",
+    price: "24.99",
+    brand: "BREEZE ELITE",
+  },
+  {
+    name: "breeze elite cherry watermelon",
+    price: "24.99",
+    brand: "BREEZE ELITE",
+  },
+  {
+    name: "breeze elite punch ice",
+    price: "24.99",
+    brand: "BREEZE ELITE",
+  },
+  {
+    name: "breeze elite strawberry pineapple ice",
+    price: "24.99",
+    brand: "BREEZE ELITE",
+  },
+  {
+    name: "breeze elite raspberry peach ice",
+    price: "24.99",
+    brand: "BREEZE ELITE",
+  },
+  {
+    name: "breeze elite blue raspberry",
+    price: "24.99",
+    brand: "BREEZE ELITE",
+  },
+  {
+    name: "breeze elite strawberry banana",
+    price: "24.99",
+    brand: "BREEZE ELITE",
+  },
+  {
+    name: "Breeze Elite 4000 - Orange Pineapple Tangerine",
+    price: "24.99",
+    brand: "BREEZE ELITE",
+  },
+  {
+    name: "beast mode bomb blue razz",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode busin' banana",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode extreme mint",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode flippin' fruit flash",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast Mode groovy grape passionfruit",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast Mode gusto green apple",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode mad mango",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode sic strawberry",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode slammin' sts",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode super spearmint",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode trippin' triple berry",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode vc delight",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode weekend watermelon",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode wild white grape",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode bangin' blood orange",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode blazin' banana blackberry",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode dope double kiwi",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode grapplin' grape sour apple",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode hip honeydew mango",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode rad razz melon",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
 ];
 
 function App() {
