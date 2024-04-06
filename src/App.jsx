@@ -668,6 +668,336 @@ const products = [
     price: "26.49",
     brand: "STLTH 8K",
   },
+  {
+    name: "Zpods Cherry Watermelon",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "ZPods 20 mg strawberry Apple Watermelon",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "zpods fruit punch watermelon ice",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "ZPods 20 mg wiggly b ice",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "ZPods 20 mg burst ice",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "zpods pineapple",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "ZPods Banana Iced",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "zpods cranberry lemon",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "ZPods 20 mg Fruit Punch Lem",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "HQD 7K Grape Pomegranate",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "Stlth 8k Kiwi Dragon Berry Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Apple Berry Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Arctic Mint",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K BlackBerry Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Blue Razz Lemon Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Citrus Burst Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Dragon Mango Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Flavourless",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Green Apple Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Hawaiian Mist Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Ice Mint",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Juicy Peach Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Lychee Melon Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Peach Blue Razz Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Peach Mango Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Punch Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Quad Berry",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "HQD Caribbean White",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "HQD Strawberry Watermelon",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "HQD Berrylicious",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "HQD Peach Ice",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "HQD 7K Mango Peach",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "HQD 7K Grape",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "HQD 7K Strawberry Watermelon",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "HQD 7K Blueberry Watermelon",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "HQD 7K Blueberry Banana",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "HQD 7K Blue Raspberry",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "HQD 7K Watermelon Ice",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "HQD 7K Peach Ice",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "HQD 7K GRAPE POMEGRANATE ICE",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "HQD 7K Caribbean White",
+    price: "25.99",
+    brand: "HQD",
+  },
+  {
+    name: "ELFBAR BC10000 Blue Razz Ice",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ELFBAR BC10000 Blueberry Mint",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ELFBAR BC10000 Cherry Watermelon",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ELFBAR BC10000 Grape Cherry",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ELFBAR BC10000 Peach Mango",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ELFBAR BC10000 Red Berry Cherry",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ELFBAR BC10000 Strawberry Kiwi Ice",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ELFBAR BC10000 Double Mango",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ELFBAR BC10000 Grape Ice",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ELFBAR BC10000 Peach Ice",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ELFBAR BC10000 Strawberry Ice",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ELFBAR BC10000 Watermelon Ice",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ELFBAR BC10000 Blueberry Cloudz",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ELFBAR BC10000 Fuji Ice",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ELFBAR BC10000 Miami Mint",
+    price: "26.99",
+    brand: "ELFBAR",
+  },
+  {
+    name: "ICEWAVE S50 Strawberry Dream",
+    price: "26.99",
+    brand: "ICE WAVE",
+  },
+  {
+    name: "genie air max - cherry lemon",
+    price: "11.99",
+    brand: "GENIE",
+  },
+  {
+    name: "genie air max - raspberry strawberry lemonade",
+    price: "11.99",
+    brand: "GENIE",
+  },
+  {
+    name: "genie air max - c hearts",
+    price: "11.99",
+    brand: "GENIE",
+  },
+  {
+    name: "genie air max - fruit berry",
+    price: "11.99",
+    brand: "GENIE",
+  },
+  {
+    name: "genie air max - mango pineapple ice",
+    price: "11.99",
+    brand: "GENIE",
+  },
+  {
+    name: "Icewave S50 Blue Razz Ice",
+    price: "26.99",
+    brand: "ICE WAVE",
+  },
+  {
+    name: "Icewave S50 Honeydew Watermelon",
+    price: "26.99",
+    brand: "ICE WAVE",
+  },
+  {
+    name: "Icewave S50 Fresh Mint",
+    price: "26.99",
+    brand: "ICE WAVE",
+  },
+  {
+    name: "Dummy Vapes 8K Mixed Berries",
+    price: "21.99",
+    brand: "DUMMY VAPES",
+  },
 ];
 
 function App() {
