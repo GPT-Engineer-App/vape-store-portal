@@ -998,6 +998,221 @@ const products = [
     price: "21.99",
     brand: "DUMMY VAPES",
   },
+  {
+    name: "Dummy Vapes 8K Raspberry Peach Lime Ice",
+    price: "21.99",
+    brand: "DUMMY VAPES",
+  },
+  {
+    name: "Dummy Vapes 8K Fruit Burst",
+    price: "21.99",
+    brand: "DUMMY VAPES",
+  },
+  {
+    name: "Dummy Vapes 8K Wiggly B",
+    price: "21.99",
+    brand: "DUMMY VAPES",
+  },
+  {
+    name: "Dummy Vapes 8K Pink Lemon",
+    price: "21.99",
+    brand: "DUMMY VAPES",
+  },
+  {
+    name: "Palm 7000 - Blue Razz Ice",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Pop Hit Palm 7000 - Cali Cherry",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7000 - Double Apple",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7000 - Tropical Clouds",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7000 - PassionFruit Kiwi Lime",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7000 - Peach Mango Watermelon",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7000 - Poppin Peach",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7000 - Watermelon Ice",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Pop Hit Palm 7000 - Pink Lemon",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7000 - Pearl Grape",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7000 - Strawberry Banana",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7000 - Super Berry",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7000 - Mix Fruit Blast",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7000 - Grape Raspberry",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7000 - Strawberry Kiwi",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7K Banana Ice",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "PALM 7K - grape ice",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7K Mango Lychee",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7K Strawberry Mango",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "Palm 7K Tropical Blue Razz",
+    price: "19.99",
+    brand: "POP HIT",
+  },
+  {
+    name: "level x boost bomb blue razz",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x boost bangin blood orange",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x boost bussin banana",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x boost super sour blueberry",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x boost extreme mint",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x boost flippin fruit flash",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x boost groovy grape passion fruit",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x boost gusto green apple",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x boost mad mango peach",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x boost packin peach berry",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x boost ragin razz mango",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x boost sic strawberry",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x boost slammin sts",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x boost weekend watermelon",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x boost wild white grape",
+    price: "19.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x device black",
+    price: "9.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x device grey",
+    price: "9.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x device white",
+    price: "9.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "level x device red",
+    price: "9.99",
+    brand: "FLAVOUR BEAST",
+  },
 ];
 
 function App() {
