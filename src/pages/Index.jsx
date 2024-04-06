@@ -63,7 +63,7 @@ const Index = () => {
             About Bogie Monster Vapeshop
           </Heading>
           <Text fontSize="lg" mb={8}>
-            At Bogie Monster, we're passionate about providing our customers with the highest quality vaping products on the market. With years of experience in the industry, we've curated a selection of the best brands and devices to help you find your perfect vape.
+            At Bogie Monster, we're passionate about providing our customers with the highest quality vaping products on the market. we've curated a selection of the best brands and devices to help you find your perfect vape.
           </Text>
           <Heading as="h2" size="xl" mb={4}>
             Why Choose Bogie Monster?
