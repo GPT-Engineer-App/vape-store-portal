@@ -7,7 +7,7 @@ const Products = ({ products }) => {
       <Heading as="h2" size="xl" mb={8}>
         All Products
       </Heading>
-      <Grid templateColumns="repeat(3, 1fr)" gap={8}>
+      <Grid templateColumns="repeat(4, 1fr)" gap={8}>
         {products.map((product) => (
           <Box key={product.name} borderWidth={1} borderRadius="lg" p={4}>
             <Heading as="h3" size="md" mb={2}>

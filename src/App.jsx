@@ -483,6 +483,191 @@ const products = [
     price: "25.99",
     brand: "FLAVOUR BEAST",
   },
+  {
+    name: "beast mode ragin' razz mango",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode str8 up strawberry banana",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode super sour blueberry",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "beast mode watermelon G melonmania",
+    price: "25.99",
+    brand: "FLAVOUR BEAST",
+  },
+  {
+    name: "Zpods Chew",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "zpods watermelon ice",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "ZPods 20 mg Blue Raspberry",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "Zpods Pink Lemon",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "ZPods Berry Mix",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "ZPods Blue Lemon",
+    price: "15.99",
+    brand: "Z-PODS",
+  },
+  {
+    name: "Stlth Device Black",
+    price: "14.49",
+    brand: "STLTH",
+  },
+  {
+    name: "Stlth Device Sliver",
+    price: "14.49",
+    brand: "STLTH",
+  },
+  {
+    name: "Stlth Device Grey",
+    price: "14.49",
+    brand: "STLTH",
+  },
+  {
+    name: "Stlth Device Navy",
+    price: "14.49",
+    brand: "STLTH",
+  },
+  {
+    name: "Stlth Device Blue",
+    price: "14.49",
+    brand: "STLTH",
+  },
+  {
+    name: "stlth device gold",
+    price: "14.49",
+    brand: "STLTH",
+  },
+  {
+    name: "Stlth Device Olive",
+    price: "14.49",
+    brand: "STLTH",
+  },
+  {
+    name: "Stlth Device Champagne",
+    price: "14.49",
+    brand: "STLTH",
+  },
+  {
+    name: "Stlth Device Red",
+    price: "14.49",
+    brand: "STLTH",
+  },
+  {
+    name: "Stlth Device Orange",
+    price: "14.49",
+    brand: "STLTH",
+  },
+  {
+    name: "stlth titan double berry twist ice",
+    price: "28.99",
+    brand: "STLTH TITAN",
+  },
+  {
+    name: "stlth titan green apple ice",
+    price: "28.99",
+    brand: "STLTH TITAN",
+  },
+  {
+    name: "stlth titan juicy peach ice",
+    price: "28.99",
+    brand: "STLTH TITAN",
+  },
+  {
+    name: "stlth titan mango peach apricot ice",
+    price: "28.99",
+    brand: "STLTH TITAN",
+  },
+  {
+    name: "stlth titan pineapple blueberry kiwi ice",
+    price: "28.99",
+    brand: "STLTH TITAN",
+  },
+  {
+    name: "stlth titan punch ice",
+    price: "28.99",
+    brand: "STLTH TITAN",
+  },
+  {
+    name: "stlth titan quad berry ice",
+    price: "28.99",
+    brand: "STLTH TITAN",
+  },
+  {
+    name: "stlth titan razz apple ice",
+    price: "28.99",
+    brand: "STLTH TITAN",
+  },
+  {
+    name: "stlth titan smooth mint",
+    price: "28.99",
+    brand: "STLTH TITAN",
+  },
+  {
+    name: "stlth titan smooth tobacco",
+    price: "28.99",
+    brand: "STLTH TITAN",
+  },
+  {
+    name: "stlth titan strawnana ice",
+    price: "28.99",
+    brand: "STLTH TITAN",
+  },
+  {
+    name: "stlth titan white grape",
+    price: "28.99",
+    brand: "STLTH TITAN",
+  },
+  {
+    name: "STLTH 8K Rich Tobacco",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Strawberry Lime Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K Tropical Storm Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "stlth 8k watermelon lime ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
+  {
+    name: "STLTH 8K white Grape Ice",
+    price: "26.49",
+    brand: "STLTH 8K",
+  },
 ];
 
 function App() {
