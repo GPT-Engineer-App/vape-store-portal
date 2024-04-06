@@ -33,6 +33,36 @@ const products = [
     price: "26.99",
     brand: "AL FAKHER",
   },
+  {
+    name: "crown blue raspberry lemon",
+    price: "26.99",
+    brand: "AL FAKHER",
+  },
+  {
+    name: "crown blueberry chew",
+    price: "26.99",
+    brand: "AL FAKHER",
+  },
+  {
+    name: "Crown Cherry raspberry",
+    price: "26.99",
+    brand: "AL FAKHER",
+  },
+  {
+    name: "Crown lemon mint",
+    price: "26.99",
+    brand: "AL FAKHER",
+  },
+  {
+    name: "crown chew mint",
+    price: "26.99",
+    brand: "AL FAKHER",
+  },
+  {
+    name: "crown lucid dream",
+    price: "26.99",
+    brand: "AL FAKHER",
+  },
 ];
 
 function App() {
