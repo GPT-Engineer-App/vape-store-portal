@@ -18,6 +18,21 @@ const products = [
     price: "26.99",
     brand: "AL FAKHER",
   },
+  {
+    name: "crown two apple",
+    price: "26.99",
+    brand: "AL FAKHER",
+  },
+  {
+    name: "crown peach ice",
+    price: "26.99",
+    brand: "AL FAKHER",
+  },
+  {
+    name: "crown strawberry punch",
+    price: "26.99",
+    brand: "AL FAKHER",
+  },
 ];
 
 function App() {
