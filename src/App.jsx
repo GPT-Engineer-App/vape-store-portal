@@ -123,6 +123,126 @@ const products = [
     price: "25.99",
     brand: "ARCHER",
   },
+  {
+    name: "ARCHER 12000 cherry cola",
+    price: "25.99",
+    brand: "ARCHER",
+  },
+  {
+    name: "ARCHER 12000 Lemon Lime",
+    price: "25.99",
+    brand: "ARCHER",
+  },
+  {
+    name: "Archer 12000 Strawberry Banana",
+    price: "25.99",
+    brand: "ARCHER",
+  },
+  {
+    name: "ARCHER 12000 kiwi passion fruit guava",
+    price: "25.99",
+    brand: "ARCHER",
+  },
+  {
+    name: "ARCHER 12000 purple wings",
+    price: "25.99",
+    brand: "ARCHER",
+  },
+  {
+    name: "ARCHER 12000 watermelon ice",
+    price: "25.99",
+    brand: "ARCHER",
+  },
+  {
+    name: "DUMMY VAPES 8000 BLUEBERRY ICE",
+    price: "21.99",
+    brand: "DUMMY VAPES",
+  },
+  {
+    name: "Dummy Vape 8K Grape",
+    price: "21.99",
+    brand: "DUMMY VAPES",
+  },
+  {
+    name: "Dummy Vape 8K SMW",
+    price: "21.99",
+    brand: "DUMMY VAPES",
+  },
+  {
+    name: "DUMMY VAPES 8000 SOUR BLUE RAZZ",
+    price: "21.99",
+    brand: "DUMMY VAPES",
+  },
+  {
+    name: "Dummy Vapes 8K Banana",
+    price: "21.99",
+    brand: "DUMMY VAPES",
+  },
+  {
+    name: "Breeze Smoke Pro - Strawberry Banana",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Peach Mango",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Root",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "breeze smoke Pro - tobacco",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Banana Coconut",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Strawberry Lime Acai",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Pineapple PassionFruit",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Grape Blackcurrant",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Cherry Fizz",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Cherry Lemon",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Chew Mint",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Grape S",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
+  {
+    name: "Breeze Smoke Pro - Lemon Mint",
+    price: "21.99",
+    brand: "BREEZE PRO",
+  },
 ];
 
 function App() {
