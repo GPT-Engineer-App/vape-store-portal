@@ -7,7 +7,6 @@ const products = [
     name: "crown simply mint",
     price: "26.99",
     brand: "AL FAKHER",
-    image: "crown_simply_mint.jpg",
   },
   {
     name: "crown lush ice",
