@@ -80,6 +80,23 @@ const Index = () => {
           <Text fontSize="lg">✔ 100% satisfaction guarantee</Text>
         </Container>
       </Box>
+    <Box bg="gray.100" py={16}>
+        <Container maxW="container.lg">
+          <Heading as="h2" size="2xl" mb={4}>
+            Contact Us
+          </Heading>
+          <Text fontSize="lg" mb={2}>
+            Address: 4719 Wyandotte St E, Windsor, ON N8Y 1H8
+          </Text>
+          <Text fontSize="lg" mb={2}>
+            Email: windsor@bogiemonster.com
+          </Text>
+          <Text fontSize="lg" mb={2}>
+            Phone: 1 226 221 9813
+          </Text>
+          <Text fontSize="lg">Instagram: @bogiemonsterwindsor</Text>
+        </Container>
+      </Box>
     </Box>
   );
 };
