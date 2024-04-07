@@ -37,6 +37,8 @@ const Products = ({ products }) => {
                 HQD: "https://www.libertyvape.ca/cdn/shop/files/hqd-cuvie-slick-pro-disposable-vape-7000-puffs-16ml-40348531589359_large.jpg?v=1701147126",
                 ELFBAR: "https://res.cloudinary.com/www180smokeca/image/upload/c_lpad,dpr_2.0,f_auto,g_auto:subject,q_auto/v1/media/catalog/product/e/l/elfbar_bc10000_disposable_vape_blueberry_mint.jpg",
                 "ICE WAVE": "https://www.majesticvapes.ca/wp-content/uploads/bb-plugin/cache/IW8500-peach-ice-300x300-1-square.jpg",
+                GENIE: "https://6ixvape.ca/cdn/shop/products/STRAWBERRYMINT_Genieairmax-disposable-qualityvapes-london-canada_1024x1024_2x_f412b771-4d72-41c3-9c7d-d3ffe3c4c027.webp?v=1672788483",
+                "POP HIT": "https://www.quitters.ca/cdn/shop/files/MIXFRUITBLAST_800x.jpg?v=1688672862",
               };
               const productImage = brandImages[product.brand] || "";
 
