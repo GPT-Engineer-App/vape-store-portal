@@ -7,6 +7,7 @@ const products = [
     name: "crown simply mint",
     price: "26.99",
     brand: "AL FAKHER",
+    image: "https://www.canvape.com/cdn/shop/files/img_3449_1_1800x1800.jpg?v=1704910466",
   },
   {
     name: "crown lush ice",
@@ -82,6 +83,7 @@ const products = [
     name: "Breeze Smoke Pro - Straw Kiwi",
     price: "21.99",
     brand: "BREEZE PRO",
+    image: "https://vapemeet.ca/cdn/shop/products/RaspberryLemon_da6016df-1394-46d2-adfd-d120a90f5d3a.jpg?v=1707411077",
   },
   {
     name: "60ml juice",
@@ -97,6 +99,7 @@ const products = [
     name: "ARCHER 12000 spearmint",
     price: "25.99",
     brand: "ARCHER",
+    image: "https://honeypotvapeshop.ca/cdn/shop/files/Vapmod-Archer-12000_Website-Banner_Mobile_1024x1024.png?v=1707072285",
   },
   {
     name: "ARCHER 12000 Strawberry Kiwi",
@@ -157,6 +160,7 @@ const products = [
     name: "DUMMY VAPES 8000 BLUEBERRY ICE",
     price: "21.99",
     brand: "DUMMY VAPES",
+    image: "https://digitalimports.ca/cdn/shop/collections/VfE7xVdA.jpg?v=1696009784",
   },
   {
     name: "Dummy Vape 8K Grape",
@@ -277,6 +281,7 @@ const products = [
     name: "breeze prime peach berry",
     price: "26.99",
     brand: "BREEZE PRIME",
+    image: "https://www.primevape.ca/cdn/shop/files/BreezePrime6000-DoubleApple.png?v=1702494412",
   },
   {
     name: "breeze prime mint",
@@ -327,6 +332,7 @@ const products = [
     name: "breeze elite kiwi dragon berry",
     price: "24.99",
     brand: "BREEZE ELITE",
+    image: "https://eyzssdmhyfg.exactdn.com/wp-content/uploads/2023/10/breeze-elite-punch-ice-canada.jpg?strip=all&lossy=1&ssl=1",
   },
   {
     name: "breeze elite apple cranberry",
@@ -507,6 +513,7 @@ const products = [
     name: "Zpods Chew",
     price: "15.99",
     brand: "Z-PODS",
+    image: "https://www.majesticvapes.ca/wp-content/uploads/bb-plugin/cache/b3b317d1d4f01405bbe4ad3e4ec9734a668cff00-600x600-square.jpg",
   },
   {
     name: "zpods watermelon ice",
@@ -537,6 +544,7 @@ const products = [
     name: "Stlth Device Black",
     price: "14.49",
     brand: "STLTH",
+    image: "https://stlthvape.com/cdn/shop/products/STLTH-TYPE-C-Vape-Device-Canada-Black-Metal.png?v=1673361510&width=1920",
   },
   {
     name: "Stlth Device Sliver",
@@ -587,6 +595,7 @@ const products = [
     name: "stlth titan double berry twist ice",
     price: "28.99",
     brand: "STLTH TITAN",
+    image: "https://fatpanda.ca/cdn/shop/files/STLTH-TITAN-DISPOSABLE-VAPE-PUNCH-ICE_700x700.jpg?v=1708548690",
   },
   {
     name: "stlth titan green apple ice",
@@ -647,6 +656,7 @@ const products = [
     name: "STLTH 8K Rich Tobacco",
     price: "26.49",
     brand: "STLTH 8K",
+    image: "https://res.cloudinary.com/www180smokeca/image/upload/c_lpad,dpr_2.0,f_auto,g_auto:subject,q_auto/v1/media/catalog/product/s/t/stlth_8k_pro_0004s_0009_ice_mint.jpg",
   },
   {
     name: "STLTH 8K Strawberry Lime Ice",
@@ -717,6 +727,7 @@ const products = [
     name: "HQD 7K Grape Pomegranate",
     price: "25.99",
     brand: "HQD",
+    image: "https://www.libertyvape.ca/cdn/shop/files/hqd-cuvie-slick-pro-disposable-vape-7000-puffs-16ml-40348531589359_large.jpg?v=1701147126",
   },
   {
     name: "Stlth 8k Kiwi Dragon Berry Ice",
@@ -877,6 +888,7 @@ const products = [
     name: "ELFBAR BC10000 Blue Razz Ice",
     price: "26.99",
     brand: "ELFBAR",
+    image: "https://res.cloudinary.com/www180smokeca/image/upload/c_lpad,dpr_2.0,f_auto,g_auto:subject,q_auto/v1/media/catalog/product/e/l/elfbar_bc10000_disposable_vape_blueberry_mint.jpg",
   },
   {
     name: "ELFBAR BC10000 Blueberry Mint",
@@ -952,11 +964,13 @@ const products = [
     name: "ICEWAVE S50 Strawberry Dream",
     price: "26.99",
     brand: "ICE WAVE",
+    image: "https://www.majesticvapes.ca/wp-content/uploads/bb-plugin/cache/IW8500-peach-ice-300x300-1-square.jpg",
   },
   {
     name: "genie air max - cherry lemon",
     price: "11.99",
     brand: "GENIE",
+    image: "https://6ixvape.ca/cdn/shop/products/STRAWBERRYMINT_Genieairmax-disposable-qualityvapes-london-canada_1024x1024_2x_f412b771-4d72-41c3-9c7d-d3ffe3c4c027.webp?v=1672788483",
   },
   {
     name: "genie air max - raspberry strawberry lemonade",
@@ -1022,6 +1036,7 @@ const products = [
     name: "Palm 7000 - Blue Razz Ice",
     price: "19.99",
     brand: "POP HIT",
+    image: "https://www.quitters.ca/cdn/shop/files/MIXFRUITBLAST_800x.jpg?v=1688672862",
   },
   {
     name: "Pop Hit Palm 7000 - Cali Cherry",

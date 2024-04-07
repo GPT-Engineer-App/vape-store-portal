@@ -23,7 +23,8 @@ const Products = ({ products }) => {
           </Heading>
           <Grid templateColumns="repeat(3, 1fr)" gap={8}>
             {filteredProducts.map((product) => (
-              <Box key={product.name} borderWidth={1} borderRadius="lg" p={4}>
+              <Box key={product.name} borderWidth={1} borderRadius="lg" p={4} textAlign="center">
+                <Image src={product.image} alt={product.name} mb={4} mx="auto" />
                 <Heading as="h3" size="md" mb={2}>
                   {product.name}
                 </Heading>
