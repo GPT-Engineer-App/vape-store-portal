@@ -1,27 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import { Box, Heading, Text, Button, Stack, Grid, Container, Image } from "@chakra-ui/react";
 
 const Products = ({ products }) => {
-  const [selectedCategory, setSelectedCategory] = useState(null);
-
-  const handleCategorySelect = (category) => {
-    setSelectedCategory(category);
-  };
-
-  const featuredProducts = products.slice(0, 6);
-
-  const filteredProducts = selectedCategory ? products.filter((product) => product.category === selectedCategory) : featuredProducts;
+  const filteredProducts = products;
 
   return (
     <Container maxW="container.lg" py={16}>
-      <Stack direction="row" spacing={4} mb={8}>
-        <Button onClick={() => handleCategorySelect("disposables")}>Disposables</Button>
-        <Button onClick={() => handleCategorySelect("pods")}>Pods</Button>
-        <Button onClick={() => handleCategorySelect("box mods")}>Box Mods</Button>
-        <Button onClick={() => handleCategorySelect("juices")}>Juices</Button>
-      </Stack>
       <Heading as="h2" size="xl" mb={8}>
-        {selectedCategory || "Featured Products"}
+        Disposables
       </Heading>
       <Grid templateColumns="repeat(3, 1fr)" gap={8}>
         {filteredProducts.map((product) => {
