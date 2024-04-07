@@ -10,15 +10,17 @@ const Products = ({ products }) => {
 
   const featuredProducts = products.slice(0, 6);
 
-  const filteredProducts = selectedCategory ? products.filter((product) => product.category === selectedCategory) : featuredProducts;
+  const filteredProducts = selectedCategory ? products.filter((product) => product.brand.toLowerCase().includes(selectedCategory.toLowerCase())) : products;
 
   return (
     <Container maxW="container.lg" py={16}>
       <Stack direction="row" spacing={4} mb={8}>
-        <Button onClick={() => handleCategorySelect("disposables")}>Disposables</Button>
-        <Button onClick={() => handleCategorySelect("pods")}>Pods</Button>
-        <Button onClick={() => handleCategorySelect("box mods")}>Box Mods</Button>
-        <Button onClick={() => handleCategorySelect("juices")}>Juices</Button>
+        <Button onClick={() => handleCategorySelect("breeze")}>Breeze</Button>
+        <Button onClick={() => handleCategorySelect("stlth")}>STLTH</Button>
+        <Button onClick={() => handleCategorySelect("flavour beast")}>Flavour Beast</Button>
+        <Button onClick={() => handleCategorySelect("hqd")}>HQD</Button>
+        <Button onClick={() => handleCategorySelect("elfbar")}>Elfbar</Button>
+        <Button onClick={() => handleCategorySelect("pop hit")}>Pop Hit</Button>
       </Stack>
       <Heading as="h2" size="xl" mb={8}>
         {selectedCategory || "Featured Products"}
