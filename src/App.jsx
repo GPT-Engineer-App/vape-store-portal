@@ -1,6 +1,8 @@
+import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Index from "./pages/Index.jsx";
 import Products from "./components/Products.jsx";
+import Header from "./components/Header.jsx";
 
 const products = [
   {
@@ -1218,6 +1220,7 @@ const products = [
 function App() {
   return (
     <Router>
+      <Header />
       <Routes>
         <Route exact path="/" element={<Index />} />
         <Route path="/products" element={<Products products={products} />} />
