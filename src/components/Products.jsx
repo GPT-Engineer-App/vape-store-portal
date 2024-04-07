@@ -14,17 +14,15 @@ const Products = ({ products }) => {
 
   return (
     <Container maxW="container.lg" py={16}>
-      <Box mb={8}>
-        <Heading as="h2" size="xl" mb={4}>
-          {selectedCategory || "Featured Products"}
-        </Heading>
-        <Stack direction="row" spacing={4}>
-          <Button onClick={() => handleCategorySelect("disposables")}>Disposables</Button>
-          <Button onClick={() => handleCategorySelect("pods")}>Pods</Button>
-          <Button onClick={() => handleCategorySelect("box mods")}>Box Mods</Button>
-          <Button onClick={() => handleCategorySelect("juices")}>Juices</Button>
-        </Stack>
-      </Box>
+      <Stack direction="row" spacing={4} mb={8}>
+        <Button onClick={() => handleCategorySelect("disposables")}>Disposables</Button>
+        <Button onClick={() => handleCategorySelect("pods")}>Pods</Button>
+        <Button onClick={() => handleCategorySelect("box mods")}>Box Mods</Button>
+        <Button onClick={() => handleCategorySelect("juices")}>Juices</Button>
+      </Stack>
+      <Heading as="h2" size="xl" mb={8}>
+        {selectedCategory || "Featured Products"}
+      </Heading>
       <Grid templateColumns="repeat(3, 1fr)" gap={8}>
         {filteredProducts.map((product) => {
           const brandImages = {
