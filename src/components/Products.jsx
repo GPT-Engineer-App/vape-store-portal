@@ -42,6 +42,7 @@ const Products = ({ products }) => {
                 "FLAVOUR BEAST": "https://www.vapourscanada.com/cdn/shop/files/FBBeastModeWeekendWat_1024x1024@2x.png?v=1710252794",
                 "FLAVOUR BEAST - BEAST MODE": "https://www.vapourscanada.com/cdn/shop/files/FBBeastModeWeekendWat_1024x1024@2x.png?v=1710252794",
                 "FLAVOUR BEAST - LEVEL X BOOST": "https://www.vape360.ca/cdn/shop/files/Super-Sour-Blueberry-Iced-Flavour-Beast-Level-X-Boost-Pods_-Level-X-Vape_-Vape360-Canada_1200x1200.jpg?v=1712140239",
+                "FLAVOUR BEAST - LEVEL X BOOST DEVICE": "https://www.majesticvapes.ca/wp-content/uploads/bb-plugin/cache/levelx_battery-850_dec2023_render-fam_1_1_1024x-square.webp",
               };
               const productImage = brandImages[product.brand] || "";
 
