@@ -1,10 +1,12 @@
-import React from "react";
-import { useSearchParams } from "react-router-dom";
+import React, { useState } from "react";
 import { Box, Heading, Text, Button, Stack, Grid, Container, Image } from "@chakra-ui/react";
 
 const Products = ({ products }) => {
-  const [searchParams] = useSearchParams();
-  const selectedCategory = searchParams.get("category");
+  const [selectedCategory, setSelectedCategory] = useState(null);
+
+  const handleCategorySelect = (category) => {
+    setSelectedCategory(category);
+  };
 
   const featuredProducts = products.slice(0, 6);
 
@@ -12,9 +14,17 @@ const Products = ({ products }) => {
 
   return (
     <Container maxW="container.lg" py={16}>
-      <Heading as="h2" size="xl" mb={8}>
-        {selectedCategory ? selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1) : "Featured Products"}
-      </Heading>
+      <Box mb={8}>
+        <Heading as="h2" size="xl" mb={4}>
+          {selectedCategory || "Featured Products"}
+        </Heading>
+        <Stack direction="row" spacing={4}>
+          <Button onClick={() => handleCategorySelect("disposables")}>Disposables</Button>
+          <Button onClick={() => handleCategorySelect("pods")}>Pods</Button>
+          <Button onClick={() => handleCategorySelect("box mods")}>Box Mods</Button>
+          <Button onClick={() => handleCategorySelect("juices")}>Juices</Button>
+        </Stack>
+      </Box>
       <Grid templateColumns="repeat(3, 1fr)" gap={8}>
         {filteredProducts.map((product) => {
           const brandImages = {
