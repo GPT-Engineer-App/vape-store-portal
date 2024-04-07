@@ -75,7 +75,7 @@ const Index = () => {
             ✔ Top-notch customer service and support
           </Text>
           <Text fontSize="lg" mb={2}>
-            ✔ Fast, reliable shipping on all orders
+            ✔ Best prices in the city
           </Text>
           <Text fontSize="lg">✔ 100% satisfaction guarantee</Text>
         </Container>
