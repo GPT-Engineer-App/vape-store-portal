@@ -39,6 +39,9 @@ const Products = ({ products }) => {
                 "ICE WAVE": "https://www.majesticvapes.ca/wp-content/uploads/bb-plugin/cache/IW8500-peach-ice-300x300-1-square.jpg",
                 GENIE: "https://6ixvape.ca/cdn/shop/products/STRAWBERRYMINT_Genieairmax-disposable-qualityvapes-london-canada_1024x1024_2x_f412b771-4d72-41c3-9c7d-d3ffe3c4c027.webp?v=1672788483",
                 "POP HIT": "https://www.quitters.ca/cdn/shop/files/MIXFRUITBLAST_800x.jpg?v=1688672862",
+                "FLAVOUR BEAST": "https://www.vapourscanada.com/cdn/shop/files/FBBeastModeWeekendWat_1024x1024@2x.png?v=1710252794",
+                "FLAVOUR BEAST - BEAST MODE": "https://www.vapourscanada.com/cdn/shop/files/FBBeastModeWeekendWat_1024x1024@2x.png?v=1710252794",
+                "FLAVOUR BEAST - LEVEL X BOOST": "https://www.vape360.ca/cdn/shop/files/Super-Sour-Blueberry-Iced-Flavour-Beast-Level-X-Boost-Pods_-Level-X-Vape_-Vape360-Canada_1200x1200.jpg?v=1712140239",
               };
               const productImage = brandImages[product.brand] || "";
 
