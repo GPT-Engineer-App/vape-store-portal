@@ -19,7 +19,7 @@ const Products = ({ products }) => {
         </Box>
         <Box flex={1}>
           <Heading as="h2" size="xl" mb={8}>
-            {selectedBrand ? `${selectedBrand} Products` : "All Products"}
+            {selectedBrand || "All Products"}
           </Heading>
           <Grid templateColumns="repeat(3, 1fr)" gap={8}>
             {filteredProducts.map((product) => (
