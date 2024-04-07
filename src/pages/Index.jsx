@@ -1,7 +1,8 @@
 import React from "react";
-import { Box, Heading, Text, Button, Container, SimpleGrid } from "@chakra-ui/react";
+import { Box, Heading, Text, Button, Container, SimpleGrid, Image } from "@chakra-ui/react";
 import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
 
 const featuredProducts = [
   {
@@ -24,9 +25,10 @@ const featuredProducts = [
 const Index = () => {
   return (
     <Box>
-      <Box bg="gray.100" py={16}>
-        <Container maxW="container.lg">
-          <Heading as="h1" size="3xl" mb={4}>
+      <Box bg="gray.100" py={8}>
+        <Container maxW="container.lg" display="flex" alignItems="center">
+          <Image src="https://static.wixstatic.com/media/b16ba7_7d2b1ce2244749d3be2cbd24d7f7cf13~mv2.png" alt="Bogie Monster Logo" h={12} mr={4} />
+          <Heading as="h1" size="2xl" mb={4}>
             Premium Vaping Products at Bogie Monster Vapeshop
           </Heading>
           <Text fontSize="xl" mb={8}>
@@ -80,7 +82,7 @@ const Index = () => {
           <Text fontSize="lg">✔ 100% satisfaction guarantee</Text>
         </Container>
       </Box>
-    <Box bg="gray.100" py={16}>
+      <Box bg="gray.100" py={16}>
         <Container maxW="container.lg">
           <Heading as="h2" size="2xl" mb={4}>
             Contact Us
