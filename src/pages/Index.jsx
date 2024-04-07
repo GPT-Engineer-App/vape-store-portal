@@ -46,14 +46,18 @@ const Index = () => {
         <Heading as="h2" size="2xl" mb={8}>
           Featured Products
         </Heading>
-        <SimpleGrid columns={3} spacing={8}>
+        <SimpleGrid columns={{ base: 1, md: 3 }} spacing={4}>
           {featuredProducts.map((product) => (
-            <Box key={product.name} borderWidth={1} borderRadius="lg" p={4}>
-              <Heading as="h3" size="md" mb={2}>
+            <Box key={product.name} borderWidth={1} borderRadius="lg" p={4} mb={4}>
+              <Heading as="h3" size="sm" mb={2}>
                 {product.name}
               </Heading>
-              <Text mb={2}>{product.brand}</Text>
-              <Text fontWeight="bold">{product.price}</Text>
+              <Text fontSize="sm" mb={1}>
+                {product.brand}
+              </Text>
+              <Text fontWeight="bold" fontSize="md">
+                {product.price}
+              </Text>
             </Box>
           ))}
         </SimpleGrid>
