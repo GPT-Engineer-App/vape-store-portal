@@ -3,7 +3,6 @@ import { Box, Heading, Text, Button, Container, SimpleGrid, Image } from "@chakr
 import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-
 const featuredProducts = [
   {
     name: "Breeze Smoke Pro - Mint",
@@ -25,15 +24,17 @@ const featuredProducts = [
 const Index = () => {
   return (
     <Box>
-      <Box bg="gray.100" py={8}>
-        <Container maxW="container.lg" display="flex" alignItems="center">
-          <Image src="https://static.wixstatic.com/media/b16ba7_7d2b1ce2244749d3be2cbd24d7f7cf13~mv2.png" alt="Bogie Monster Logo" h={12} mr={4} />
-          <Heading as="h1" size="2xl" mb={4}>
-            Premium Vaping Products at Bogie Monster Vapeshop
-          </Heading>
-          <Text fontSize="xl" mb={8}>
-            Discover the best selection of vape devices, e-liquids, and accessories. Shop now and experience the Bogie Monster difference!
-          </Text>
+      <Box bg="gray.100" py={12}>
+        <Container maxW="container.lg">
+          <Box display="flex" alignItems="center" mb={8}>
+            <Image src="https://static.wixstatic.com/media/b16ba7_7d2b1ce2244749d3be2cbd24d7f7cf13~mv2.png" alt="Bogie Monster Logo" h={10} mr={6} />
+            <Box>
+              <Heading as="h1" size="xl" mb={2}>
+                Premium Vaping Products
+              </Heading>
+              <Text fontSize="lg">Discover the best selection of vape devices, e-liquids, and accessories at Bogie Monster Vapeshop.</Text>
+            </Box>
+          </Box>
           <Link to="/products">
             <Button colorScheme="blue" size="lg" rightIcon={<FaShoppingCart />}>
               Shop Our Products
