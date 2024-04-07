@@ -27,7 +27,9 @@ const Index = () => {
       <Box bg="gray.100" py={12}>
         <Container maxW="container.lg">
           <Box display="flex" alignItems="center" mb={8}>
-            <Image src="https://static.wixstatic.com/media/b16ba7_7d2b1ce2244749d3be2cbd24d7f7cf13~mv2.png" alt="Bogie Monster Logo" h={20} mr={6} />
+            <Link to="/">
+              <Image src="https://static.wixstatic.com/media/b16ba7_7d2b1ce2244749d3be2cbd24d7f7cf13~mv2.png" alt="Bogie Monster Logo" h={20} mr={6} />
+            </Link>
             <Box>
               <Heading as="h1" size="xl" mb={2}>
                 Premium Vaping Products
