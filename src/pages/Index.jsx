@@ -95,7 +95,7 @@ const Index = () => {
             Address: 4719 Wyandotte St E, Windsor, ON N8Y 1H8
           </Text>
           <Text fontSize="lg" mb={2}>
-            Email: windsor@bogiemonster.com
+            Email: windsorbogiemonster@gmail.com
           </Text>
           <Text fontSize="lg" mb={2}>
             Phone: 1 226 221 9813
