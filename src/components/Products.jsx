@@ -11,7 +11,7 @@ const Products = ({ products }) => {
 
   const featuredProducts = products.slice(0, 6);
 
-  const filteredProducts = selectedCategory ? products.filter((product) => product.category === selectedCategory) : featuredProducts;
+  const filteredProducts = selectedCategory ? products.filter((product) => (selectedCategory === "disposables" ? product.category === "disposables" : product.category === selectedCategory)) : featuredProducts;
 
   return (
     <Container maxW="container.lg" py={16}>
