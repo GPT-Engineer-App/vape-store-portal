@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Box, Heading, Text, Button, Stack, Grid, Container, Image, Input } from "@chakra-ui/react";
 
-const Products = ({ products }) => {
+const Products = ({ products, searchTerm, setSearchTerm }) => {
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const [searchTerm, setSearchTerm] = useState("");
 
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);

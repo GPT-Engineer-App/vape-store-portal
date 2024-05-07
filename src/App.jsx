@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Index from "./pages/Index.jsx";
 import Products from "./components/Products.jsx";
 import Header from "./components/Header.jsx";
 import Cart from "./pages/Cart.jsx";
+
+const [searchTerm, setSearchTerm] = useState("");
 
 const products = [
   {
@@ -1236,10 +1238,10 @@ const products = [
 function App() {
   return (
     <Router>
-      <Header />
+      <Header searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <Routes>
         <Route exact path="/" element={<Index />} />
-        <Route path="/products" element={<Products products={products} />} />
+        <Route path="/products" element={<Products products={products} searchTerm={searchTerm} />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
     </Router>
