@@ -71,7 +71,7 @@ const Products = ({ products }) => {
           };
           const productImage = brandImages[product.brand] || "";
           return (
-            <Box key={product.name} borderWidth={1} borderRadius="lg" p={4}>
+            <Box key={product.name} borderWidth={1} borderRadius="lg" p={4} w="250px" h="350px">
               <Image src={productImage} alt={`${product.brand} product`} mb={4} borderRadius="md" />
               <Heading as="h3" size="md" mb={2}>
                 {product.name}
