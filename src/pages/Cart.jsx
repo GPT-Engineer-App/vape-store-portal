@@ -3,11 +3,11 @@ import { Box, Heading } from "@chakra-ui/react";
 
 const Cart = () => {
   return (
-    <Box p={4}>
+    <Box>
       <Heading as="h1" size="xl" mb={8}>
-        Your Shopping Cart
+        Shopping Cart
       </Heading>
-      <Text>Your cart is currently empty.</Text>
+      {}
     </Box>
   );
 };
