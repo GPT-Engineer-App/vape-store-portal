@@ -24,7 +24,7 @@ const featuredProducts = [
 const Index = () => {
   return (
     <Box>
-      <Box bg="gray.100" py={12}>
+      <Box bg="blue.50" py={16}>
         <Container maxW="container.lg">
           <Box mb={8}>
             <Box>
@@ -63,7 +63,7 @@ const Index = () => {
         </SimpleGrid>
       </Container>
 
-      <Box bg="gray.50" py={16}>
+      <Box bg="green.50" py={20}>
         <Container maxW="container.lg">
           <Heading as="h2" size="2xl" mb={4}>
             About Bogie Monster Vapeshop
@@ -86,7 +86,7 @@ const Index = () => {
           <Text fontSize="lg">✔ 100% satisfaction guarantee</Text>
         </Container>
       </Box>
-      <Box bg="gray.100" py={16}>
+      <Box bg="purple.50" py={20}>
         <Container maxW="container.lg">
           <Heading as="h2" size="2xl" mb={4}>
             Contact Us
