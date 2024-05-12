@@ -46,7 +46,7 @@ const Products = ({ products }) => {
       <Heading as="h2" size="xl" mb={8}>
         {selectedCategory ? `${selectedCategory} Products` : "All Products"}
       </Heading>
-      <Grid templateColumns={{ base: "repeat(1, 1fr)", sm: "repeat(2, 1fr)", md: "repeat(3, 1fr)", lg: "repeat(4, 1fr)" }} gap={6}>
+      <Grid templateColumns={{ base: "repeat(1, 1fr)", sm: "repeat(2, 1fr)", md: "repeat(3, 1fr)", lg: "repeat(4, 1fr)", xl: "repeat(5, 1fr)" }} gap={6}>
         {currentItems.map((product) => {
           const brandImages = {
             "AL FAKHER": "https://www.canvape.com/cdn/shop/files/img_3449_1_1800x1800.jpg?v=1704910466",
