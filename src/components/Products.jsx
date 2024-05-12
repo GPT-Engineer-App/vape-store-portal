@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { CartContext } from "../contexts/CartContext.jsx";
-import { Box, Heading, Text, Button, Stack, Grid, Container, Image, Input } from "@chakra-ui/react";
+import { Box, Heading, Text, Button, Stack, Grid, Container, Image, Input, Flex } from "@chakra-ui/react";
 
 const Products = ({ products }) => {
   const { addToCart } = useContext(CartContext);
@@ -86,13 +86,13 @@ const Products = ({ products }) => {
             </Box>
           );
         })}
-        <Box mt={8}>
+        <Flex mt={8} justifyContent="center">
           {pageNumbers.map((number) => (
             <Button key={number} onClick={() => paginate(number)} m={1}>
               {number}
             </Button>
           ))}
-        </Box>
+        </Flex>
       </Grid>
     </Container>
   );
