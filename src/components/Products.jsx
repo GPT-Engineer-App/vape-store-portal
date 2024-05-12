@@ -46,6 +46,13 @@ const Products = ({ products }) => {
       <Heading as="h2" size="xl" mb={8}>
         {selectedCategory ? `${selectedCategory} Products` : "All Products"}
       </Heading>
+      <Flex mt={8} justifyContent="center" wrap="wrap">
+        {pageNumbers.map((number) => (
+          <Button key={number} onClick={() => paginate(number)} m={2} colorScheme="teal">
+            {number}
+          </Button>
+        ))}
+      </Flex>
       <Grid templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(2, 1fr)", lg: "repeat(4, 1fr)" }} gap={6}>
         {currentItems.map((product) => {
           const brandImages = {
@@ -86,14 +93,14 @@ const Products = ({ products }) => {
             </Box>
           );
         })}
-        <Flex mt={8} justifyContent="center" wrap="wrap">
-          {pageNumbers.map((number) => (
-            <Button key={number} onClick={() => paginate(number)} m={2} colorScheme="teal">
-              {number}
-            </Button>
-          ))}
-        </Flex>
       </Grid>
+      <Flex mt={8} justifyContent="center" wrap="wrap">
+        {pageNumbers.map((number) => (
+          <Button key={number} onClick={() => paginate(number)} m={2} colorScheme="teal">
+            {number}
+          </Button>
+        ))}
+      </Flex>
     </Container>
   );
 };
