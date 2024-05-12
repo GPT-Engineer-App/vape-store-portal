@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { CartContext } from "../contexts/CartContext.jsx";
 import { Box, Heading, Text, Button, Stack, Grid, Container, Image, Input } from "@chakra-ui/react";
 
 const Products = ({ products }) => {
+  const { addToCart } = useContext(CartContext);
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
@@ -69,7 +71,7 @@ const Products = ({ products }) => {
               <Text mb={2}>{product.brand}</Text>
               <Stack direction="row" align="center">
                 <Text fontWeight="bold">{product.price}</Text>
-                <Button colorScheme="blue" size="sm" ml="auto">
+                <Button colorScheme="blue" size="sm" ml="auto" onClick={() => addToCart(product)}>
                   Add to Cart
                 </Button>
               </Stack>
