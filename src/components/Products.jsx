@@ -30,13 +30,21 @@ const Products = ({ products }) => {
     <Container maxW="container.lg" py={16}>
       <Stack direction="column" spacing={4} mb={8}>
         <Input placeholder="Search products..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} mb={4} />
-        <Button onClick={() => handleCategorySelect("disposables")}>Disposables</Button>
-        <Button onClick={() => handleCategorySelect("pods")}>Pods</Button>
-        <Button onClick={() => handleCategorySelect("box mods")}>Box Mods</Button>
-        <Button onClick={() => handleCategorySelect("juices")}>Juices</Button>
+        <Button onClick={() => handleCategorySelect("disposables")} colorScheme="blue">
+          Disposables
+        </Button>
+        <Button onClick={() => handleCategorySelect("pods")} colorScheme="green">
+          Pods
+        </Button>
+        <Button onClick={() => handleCategorySelect("box mods")} colorScheme="red">
+          Box Mods
+        </Button>
+        <Button onClick={() => handleCategorySelect("juices")} colorScheme="purple">
+          Juices
+        </Button>
       </Stack>
       <Heading as="h2" size="xl" mb={8}>
-        {selectedCategory || "Featured Products"}
+        {selectedCategory ? `${selectedCategory} Products` : "All Products"}
       </Heading>
       <Grid templateColumns="repeat(4, 1fr)" gap={6}>
         {currentItems.map((product) => {
