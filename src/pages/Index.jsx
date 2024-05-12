@@ -25,18 +25,16 @@ const Index = () => {
   return (
     <Box>
       <Box bg="gray.100" py={12}>
-        <Container maxW="container.lg">
+        <Container maxW="container.xl">
           <Box mb={8}>
-            <Box>
-              <Heading as="h1" size="xl" mb={2}>
-                Premium Vaping Products
-              </Heading>
-              <Text fontSize="lg">Discover the best selection of vape devices, e-liquids, and accessories at Bogie Monster Vapeshop.</Text>
-            </Box>
+            <Heading as="h1" size="xl" mb={2}>
+              Welcome to Bogie Monster Vapeshop
+            </Heading>
+            <Text fontSize="lg">Explore our wide range of vaping products, from disposables to high-end mods.</Text>
           </Box>
           <Link to="/products">
             <Button colorScheme="blue" size="lg" rightIcon={<FaShoppingCart />}>
-              Shop Our Products
+              Shop Now
             </Button>
           </Link>
         </Container>
