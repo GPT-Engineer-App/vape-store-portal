@@ -6,7 +6,7 @@ const Products = ({ products }) => {
   const { addToCart } = useContext(CartContext);
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 10;
+  const itemsPerPage = 12;
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleCategorySelect = (category) => {
