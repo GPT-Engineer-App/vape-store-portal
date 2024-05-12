@@ -12,7 +12,7 @@ const Cart = () => {
         Shopping Cart
       </Heading>
       {cartItems.length > 0 ? (
-        <Stack spacing={4}>
+        <Stack spacing={4} direction={{ base: "column", md: "row" }}>
           {cartItems.map((item, index) => (
             <Box key={index} p={5} shadow="md" borderWidth="1px">
               <Text fontWeight="bold">{item.name}</Text>
