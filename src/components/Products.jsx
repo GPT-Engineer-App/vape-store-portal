@@ -11,16 +11,16 @@ const Products = ({ products }) => {
     setSelectedCategory(category);
   };
 
-  const disposables = products.filter((product) => product.category === "disposables");
+  const filteredProducts = selectedCategory ? products.filter((product) => product.category === selectedCategory) : products;
 
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = disposables.slice(indexOfFirstItem, indexOfLastItem);
+  const currentItems = filteredProducts.slice(indexOfFirstItem, indexOfLastItem);
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   const pageNumbers = [];
-  for (let i = 1; i <= Math.ceil(disposables.length / itemsPerPage); i++) {
+  for (let i = 1; i <= Math.ceil(filteredProducts.length / itemsPerPage); i++) {
     pageNumbers.push(i);
   }
 
@@ -36,7 +36,7 @@ const Products = ({ products }) => {
       <Heading as="h2" size="xl" mb={8}>
         {selectedCategory || "Featured Products"}
       </Heading>
-      <Grid templateColumns="repeat(3, 1fr)" gap={8}>
+      <Grid templateColumns="repeat(4, 1fr)" gap={6}>
         {currentItems.map((product) => {
           const brandImages = {
             "AL FAKHER": "https://www.canvape.com/cdn/shop/files/img_3449_1_1800x1800.jpg?v=1704910466",
