@@ -4,6 +4,7 @@ import Index from "./pages/Index.jsx";
 import Products from "./components/Products.jsx";
 import Header from "./components/Header.jsx";
 import Cart from "./pages/Cart.jsx";
+import Disposables from "./pages/Disposables.jsx";
 
 const products = [
   {
@@ -1241,6 +1242,7 @@ function App() {
         <Route exact path="/" element={<Index />} />
         <Route path="/products" element={<Products products={products} />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/disposables" element={<Disposables products={products} />} />
       </Routes>
     </Router>
   );

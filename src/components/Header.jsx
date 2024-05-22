@@ -19,9 +19,7 @@ const Header = () => {
           <Link to="/products" p={2}>
             Products
           </Link>
-          <Link to="/disposables" p={2}>
-            Disposables
-          </Link>
+
           <Link to="/cart" p={2}>
             Cart
           </Link>
