@@ -11,9 +11,14 @@ const Products = ({ products }) => {
 
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);
+    setSearchTerm("");
   };
 
-  const filteredProducts = selectedCategory ? products.filter((product) => product.category === selectedCategory) : products;
+  const filteredProducts = products.filter((product) => {
+    const matchesCategory = selectedCategory ? product.category === selectedCategory : true;
+    const matchesSearchTerm = product.name.toLowerCase().includes(searchTerm.toLowerCase());
+    return matchesCategory && matchesSearchTerm;
+  });
 
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
